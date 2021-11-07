@@ -23,6 +23,7 @@ Replace "project-directory" with your preferred project name.
 - [Rollup JSON plugin](https://www.npmjs.com/package/@rollup/plugin-json) & [Rollup SVG plugin](https://www.npmjs.com/package/rollup-plugin-svg) for importing these formats directly
 - Google-fetch in the "scripts" directory pulls in data from either a Google Doc or Sheet (see below)
 - [ArchieML](http://archieml.org/) is used for reading ArchieML formatted Google Docs into local JSON/CSV files.
+- [LayerCake](https://layercake.graphics/) is included for chart making (still in testing)
 
 ### Importing Google docs data
 
