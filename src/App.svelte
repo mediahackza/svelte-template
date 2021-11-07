@@ -1,10 +1,41 @@
 <script>
-  export let name
+  import story from './data/test-story.json'
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <div class="cover-image">
+    <img src={story.images.cover.src} alt={story.images.cover.alt} />
+  </div>
+  <h2>{story.headline}!</h2>
+  <div class="byline">By {story.authors}</div>
+  <div class="body">
+    <section>
+      {#each story.section1 as para}
+        <p>{para.value}</p>
+      {/each}
+    </section>
+    <div class="inline-image">
+      <img src={story.images.section1.src} alt={story.images.section1.alt} />
+    </div>
+    <section>
+      {#each story.section2 as para}
+        <p>{para.value}</p>
+      {/each}
+    </section>
+  </div>
 </main>
 
 <style>
+  .byline {
+    font-family: var(--sansFont);
+  }
+  .cover-image {
+    width: 100%;
+    text-align: center;
+  }
+  .cover-image img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 </style>
