@@ -1,41 +1,10 @@
 <script>
-  import story from './data/test-story.json'
+  import Router from 'svelte-spa-router'
+  import { routes } from './routes'
+  import Header from './components/Header.svelte'
 </script>
 
 <main>
-  <div class="cover-image">
-    <img src={story.images.cover.src} alt={story.images.cover.alt} />
-  </div>
-  <h2>{story.headline}!</h2>
-  <div class="byline">By {story.authors}</div>
-  <div class="body">
-    <section>
-      {#each story.section1 as para}
-        <p>{para.value}</p>
-      {/each}
-    </section>
-    <div class="inline-image">
-      <img src={story.images.section1.src} alt={story.images.section1.alt} />
-    </div>
-    <section>
-      {#each story.section2 as para}
-        <p>{para.value}</p>
-      {/each}
-    </section>
-  </div>
+  <Header />
+  <Router {routes} />
 </main>
-
-<style>
-  .byline {
-    font-family: var(--sansFont);
-  }
-  .cover-image {
-    width: 100%;
-    text-align: center;
-  }
-  .cover-image img {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>

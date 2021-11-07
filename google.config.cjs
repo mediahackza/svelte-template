@@ -9,6 +9,8 @@ module.exports = [
   //     filepath: 'src/data/home.json',
   //   },
   {
+    source:
+      'https://docs.google.com/document/d/19o279TDHdviBEXHSbXbCSdDppW8Has3iRnABRsVOI48/edit',
     id: '19o279TDHdviBEXHSbXbCSdDppW8Has3iRnABRsVOI48',
     filepath: 'src/data/test-story.json',
   },
