@@ -1,4 +1,4 @@
-# Media Hack Collective Svelte template
+# Media Hack Svelte starter template
 
 A basic setup for Svelte apps created by [Media Hack Collective](https://mediahack.co.za)
 
