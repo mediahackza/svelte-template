@@ -1,4 +1,6 @@
-<script></script>
+<script>
+  // import Logo from './Logo.svelte'
+</script>
 
 <div>
   <a href="/">Home</a> | <a href="/#/about">About</a> |
