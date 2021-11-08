@@ -4,7 +4,7 @@
 
 <div>
   <a href="/">Home</a> | <a href="/#/about">About</a> |
-  <a href="/#/list/202">List ID 20</a>
+  <a href="/#/list/202">List ID 20</a> | <a href="/#/map">Map</a>
 </div>
 
 <style>

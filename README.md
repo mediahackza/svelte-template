@@ -27,6 +27,7 @@ Replace "project-directory" with your preferred project name.
 - [ArchieML](http://archieml.org/) is used for reading ArchieML formatted Google Docs into local JSON/CSV files.
 - [LayerCake](https://layercake.graphics/) is included for chart making (still in testing)
 - [Svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) is included for client-side routing where necessary.
+- [Leaflet.js](https://leafletjs.com/) included for map making.
 
 ### Importing Google docs data
 
