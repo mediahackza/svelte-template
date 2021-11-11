@@ -123,4 +123,4 @@ Comments in ArchieML are deprecated. They may still be available in various pars
 
 - [ArchieML site](http://archieml.org/)
 - [Media Hack Svelte template](https://github.com/mediahackza/svelte-template) which uses ArchieML
-- Function to convert Markdown links to HTML
+- Suggested function to [convert Markdown links to HTML](https://github.com/mediahackza/svelte-template/blob/main/MDLINKSTOHTML.md).
