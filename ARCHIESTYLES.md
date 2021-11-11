@@ -95,7 +95,7 @@ ArchieML doesn't (appear) to have a way to handle links. One option is to mark l
 
     [link text](http://linktext)
 
-See the related document with a working function to convert Markdown-format links to HTML.
+See the related document with a suggested Javascript function to [convert Markdown-format links to HTML](https://github.com/mediahackza/svelte-template/blob/main/MDLINKSTOHTML.md).
 
 #### Images
 

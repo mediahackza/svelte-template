@@ -24,7 +24,7 @@ Replace "project-directory" with your preferred project name.
 
 - [Rollup JSON plugin](https://www.npmjs.com/package/@rollup/plugin-json) & [Rollup SVG plugin](https://www.npmjs.com/package/rollup-plugin-svg) for importing these formats directly
 - Google-fetch in the "scripts" directory pulls in data from either a Google Doc or Sheet (see below)
-- [ArchieML](http://archieml.org/) is used for reading ArchieML formatted Google Docs into local JSON/CSV files.
+- [ArchieML](http://archieml.org/) is used for reading ArchieML formatted Google Docs into local JSON/CSV files ([example use](https://github.com/mediahackza/svelte-template/blob/main/ARCHIESTYLES.md)).
 - [LayerCake](https://layercake.graphics/) is included for chart making (still in testing)
 - [Svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) is included for client-side routing where necessary.
 - [Leaflet.js](https://leafletjs.com/) included for map making.
