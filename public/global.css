@@ -61,6 +61,37 @@
   --hover: #eee;
 }
 
+/* Resets/Defaults Options */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* End resets/defaults */
+
 html,
 body {
   width: 100%;
@@ -169,6 +200,7 @@ main {
   margin-right: auto;
   font-size: var(--bodySize);
   line-height: var(--bodyHeight);
+  margin-bottom: 50px;
 }
 
 /* Developer styles */

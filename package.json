@@ -28,7 +28,8 @@
   "dependencies": {
     "leaflet": "^1.7.1",
     "sirv-cli": "^1.0.0",
-    "svelte-spa-router": "^3.2.0"
+    "svelte-spa-router": "^3.2.0",
+    "feather-icons": "^4.28.0"
   },
   "browserslist": "> 0.5%, last 4 versions, not ie <= 11, not ie_mob <= 11"
 }
