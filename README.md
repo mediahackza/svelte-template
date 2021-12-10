@@ -46,3 +46,19 @@ Running the gdoc script will import Google Docs or Sheets into a local folder. T
 
 - [Svelte Data Viz notes](https://github.com/alastairotter/svelte-data-viz): A basic guide to working with Svelte for data visualisation.
 - [The Pudding Github](https://github.com/the-pudding/website): An excellent description of the Svelte setup for the [The Pudding](https://pudding.cool/) website.
+
+## Replicating this template manually
+
+### Rollup JSON Plugin
+
+`npm install @rollup/plugin-json --save-dev`
+
+### Rollup SVG plugin
+
+`npm install rollup-plugin-svg --save-dev`
+
+### ArchieML
+
+`npm install archieml`
+
+Note: You may need to run `npm install` after these.
