@@ -59,6 +59,28 @@ Running the gdoc script will import Google Docs or Sheets into a local folder. T
 
 ### ArchieML
 
-`npm install archieml`
+`npm install archieml --save-dev`
+
+### Node-Fetch
+
+Required for ArchieML and others
+
+`npm install node-fetch --save-dev`
+
+## D3
+
+`npm install d3 --save`
+
+## Chroma-js
+
+`npm install chroma-js --save`
+
+## Leaflet
+
+`npm install leafelt --save`
+
+## Feather-Icons
+
+`npm install feather-icons --save`
 
 Note: You may need to run `npm install` after these.
